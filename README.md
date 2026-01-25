@@ -7,27 +7,26 @@ The goal of this project is to fully document and formalize a complete developme
 ## Documentation Map
 
 ### Core Governance
-*   [Governance Model](GOVERNANCE.md): The constitution of the project.
-*   [Principles](PRINCIPLES.md): The inviolable rules.
 *   [Agents & Roles](AGENTS.md): Responsibilities for Humans and AI.
+*   [Git & Workflow Governance](GIT/GOVERNANCE.md): Git flow, Pull Request validation, and Fast Lanes.
+*   [UI/UX Governance](UI_UX/GOVERNANCE.md): Design-to-Spec workflow.
+*   [Roadmap](ROADMAP.md): Strategic direction.
 
-### The Methodology
+### The Methodology (Derivation Chain)
 The development flow moves strictly from top to bottom:
 
-1.  **[Decisions](decisions/README.md)**: The "Why" and "Constraints". Immutable records.
-2.  **[Specs & Use Cases](specs/README.md)**: The "What". Functional requirements derived from Decisions.
+1.  **[Decisions](DECISIONS/README.md)**: The "Why" and "Constraints". Immutable records.
+2.  **[Use Cases](USE_CASES/README.md)**: The "What". Functional requirements derived from Decisions.
 3.  **Implementation**: The "How". Code, Tests, and Config.
 
-### Process & Workflow
-*   [Workflow](WORKFLOW.md): Git flow, Pull Request validation rules.
-*   [Fast Lanes](FAST_LANES.md): Explicitly approved shortcuts for low-risk changes.
-*   [Non-Functional Requirements](NFR.md): Handling Security, Performance, etc.
-*   [AI Practices](AI_PRACTICES.md): Guidelines for safe AI-assisted development.
+### Standards & Prompts
+*   [Non-Functional Requirements](NON_FUNCTIONAL/README.md): Security, Performance, Reliability standards.
+*   [AI Prompts](PROMPTS/JULES.md): System prompts and guidelines for AI agents.
 
 ## Quick Start
-1.  Read `GOVERNANCE.md` to understand the philosophy.
-2.  Review `decisions/` to understand existing constraints.
-3.  To propose a change, start by copying `decisions/TEMPLATE.md` to a new Decision Record.
+1.  Read `DECISIONS/DECISION-001.md` to understand the origin of this framework.
+2.  Review `DECISIONS/` to see active constraints.
+3.  To propose a change, copy `DECISIONS/TEMPLATE.md` to a new Decision Record.
 
 ## License
 See [LICENSE](LICENSE).
