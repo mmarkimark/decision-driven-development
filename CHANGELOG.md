@@ -2,6 +2,15 @@
 
 All notable changes to this methodology will be documented here.
 
+## [2.0.0] — 2026-01-29
+
+### Changed
+- DDD is now defined as a binding architectural contract
+- File naming encodes authority (UPPERCASE vs lowercase)
+- Governance synchronization rules introduced (Decisions ↔ README ↔ CHANGELOG ↔ Glossary)
+- Fast-Lane terminology canonicalized
+- Non-governance artifacts explicitly forbidden
+
 ## [Unreleased]
 
 ### Added

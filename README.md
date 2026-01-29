@@ -4,6 +4,8 @@ Governance-first, spec-driven framework for AI-assisted software development.
 
 The goal of this project is to fully document and formalize a complete development methodology that prioritizes decision-making and specifications over raw code production, ensuring that AI agents and humans work in a strictly governed environment.
 
+This project defines Decision-Driven Development (DDD) v2.0 — a governance-first framework where Decisions, structure, and naming conventions form a binding architectural contract.
+
 ## Documentation Map
 
 ### Core Governance
