@@ -30,3 +30,34 @@ The development flow moves strictly from top to bottom:
 
 ## License
 See [LICENSE](LICENSE).
+
+## Governance Evolution Layer
+
+This methodology now includes an explicit governance evolution model.
+
+The system is no longer only specification-driven — it is also self-governed through:
+
+- Rule hierarchy
+- Change classification
+- Decision lifecycle
+- Conflict resolution
+- Traceability enforcement
+- AI operational boundaries
+
+This transforms the methodology into a structured meta-architecture.
+
+See:
+
+- `docs/architecture/RULE_HIERARCHY.md`
+- `docs/domain/change_types.md`
+- `docs/domain/decision_lifecycle.md`
+- `docs/domain/conflict_resolution.md`
+- `docs/domain/traceability_rule.md`
+
+---
+
+## Changelog Policy
+
+This repository maintains a changelog because the methodology itself evolves.
+
+All structural or governance changes must be recorded in `CHANGELOG.md`.
