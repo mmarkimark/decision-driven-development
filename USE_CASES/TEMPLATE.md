@@ -1,34 +1,24 @@
-# [UC-XXXX] Title of the Use Case / Spec
+# USE CASE - UC-XXX
 
-*   **Status**: [Draft | Approved | Implemented | Deprecated]
-*   **Derived From**: [DR-XXXX] (Link to Decision)
-*   **Primary Actor**: [User | System | AI]
+## Title
+(Short title)
 
-## Description
-A brief description of what the system does from the user's perspective.
+## Decision origin
+DECISION-XXX
 
-## Pre-conditions
-What must be true before this use case starts?
+## Actors
+- Actor 1
 
-## Flow of Events
-1.  Actor does X.
-2.  System does Y.
-3.  ...
+## Preconditions
+- (explicitly list)
 
-## Post-conditions
-What must be true after the use case finishes?
+## Flow
+1. Step one
+2. Step two
 
-## Non-Functional Requirements (NFRs)
-*   **Performance**: ...
-*   **Security**: ...
-*   **Observability**: ...
+## Postconditions
+- (explicitly list)
 
-## Edge Cases
-*   What if X fails?
-*   What if input is invalid?
-
-## Verification Plan
-How will this be verified?
-*   [ ] Unit Test
-*   [ ] Integration Test
-*   [ ] Manual Verification
+## Acceptance criteria
+- Criterion 1
+- Criterion 2

@@ -11,7 +11,7 @@ The goal of this project is to fully document and formalize a complete developme
 *   [Git & Workflow Governance](GIT/GOVERNANCE.md): Git flow, Pull Request validation, and Fast Lanes.
 *   [UI/UX Governance](UI_UX/GOVERNANCE.md): Design-to-Spec workflow.
 *   [Roadmap](ROADMAP.md): Strategic direction.
-*   [Documentation Synchronization Rule](docs/domain/documentation_synchronization.md)
+*   Documentation Synchronization Rule (docs/domain/documentation_synchronization.md)
 
 ### The Methodology (Derivation Chain)
 The development flow moves strictly from top to bottom:
@@ -30,4 +30,35 @@ The development flow moves strictly from top to bottom:
 3.  To propose a change, copy `DECISIONS/TEMPLATE.md` to a new Decision Record.
 
 ## License
-See [LICENSE](LICENSE)
+See [LICENSE](LICENSE).
+
+## Governance Evolution Layer
+
+This methodology now includes an explicit governance evolution model.
+
+The system is no longer only specification-driven — it is also self-governed through:
+
+- Rule hierarchy
+- Change classification
+- Decision lifecycle
+- Conflict resolution
+- Traceability enforcement
+- AI operational boundaries
+
+This transforms the methodology into a structured meta-architecture.
+
+See:
+
+- `docs/architecture/RULE_HIERARCHY.md`
+- `docs/domain/change_types.md`
+- `docs/domain/decision_lifecycle.md`
+- `docs/domain/conflict_resolution.md`
+- `docs/domain/traceability_rule.md`
+
+---
+
+## Changelog Policy
+
+This repository maintains a changelog because the methodology itself evolves.
+
+All structural or governance changes must be recorded in `CHANGELOG.md`.
