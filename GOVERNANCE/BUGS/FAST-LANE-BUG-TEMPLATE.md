@@ -9,13 +9,9 @@ low / medium / high
 ## Scope
 UI / Engine / API / Storage / Observability
 
-## Description
-What is broken.
-
 ## Steps to Reproduce
-1. ...
-2. ...
-3. ...
+1. Step one
+2. Step two
 
 ## Expected Behavior
 What should happen.
@@ -26,11 +22,11 @@ What happens.
 ## Impact
 Impact assessment.
 
+## Mitigation / Fix Strategy
+Brief description of the fix.
+
 ## Related Decisions
 DECISION-XXX or None
 
-## Mitigation / Fix Strategy
-Brief description.
-
-## Notes
-Additional context, links to PR and validation artifacts.
+## PR / Artifacts
+Link to PR and validation logs

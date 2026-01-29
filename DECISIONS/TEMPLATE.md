@@ -1,29 +1,25 @@
-# [DR-XXXX] Title of the Decision
-
-*   **Status**: [Proposed | Accepted | Superseded | Rejected]
-*   **Date**: YYYY-MM-DD
-*   **Author(s)**: [Names]
-*   **Supersedes**: [DR-YYYY] (Optional)
-*   **Superseded By**: [DR-ZZZZ] (Optional)
+# DECISION-XXX - Title
 
 ## Context
-What is the issue that we are seeing that is motivating this decision? Describe the technical, business, or governance context.
+(Describe the context and problem)
 
 ## Decision
-What is the change that we are proposing and/or doing? Be precise.
+(Describe the decision made)
 
-## Consequences
-What becomes easier? What becomes more difficult? What are the risks?
+## Alternatives considered
+- Alternative 1: reasoning
+- Alternative 2: reasoning
 
-### Positive
-*   ...
+## Impact
+- Layers affected: Domain / Application / Infrastructure
+- Behaviour changes:
+  - (explicitly list what changes)
 
-### Negative
-*   ...
+## Implementation notes
+(How to implement)
 
-## Compliance
-How do we ensure this decision is followed? (e.g., Linting rule, Manual review, Automated test)
+## Tests / Validation
+(How to validate this Decision)
 
-## Derived Use Cases / Specs
-Link to the Use Cases or Specs that will implement this decision. (To be updated as Specs are created)
-*   [UC-XXXX] ...
+## Related Decisions
+- DECISION-YYY
