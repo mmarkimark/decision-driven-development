@@ -37,11 +37,11 @@ The following rules are enforced (manually or via CI):
 *   **Decision**: Accepted and merged.
 *   **Spec**: Approved and merged.
 *   **Code**: Tests pass, NFRs met, linked to Spec, merged.
-# Fast Lanes
+# Fast-Lanes
 
-Fast Lanes are explicit, documented exceptions to the standard full process (Decision -> Spec -> Code). They are used to optimize for speed in specific, low-risk scenarios.
+Fast-Lanes are explicit, documented exceptions to the standard full process (Decision -> Spec -> Code). They are used to optimize for speed in specific, low-risk scenarios.
 
-**WARNING**: Fast Lanes are **not** the default. They are valid only for the scenarios listed below.
+**WARNING**: Fast-Lanes are **not** the default. They are valid only for the scenarios listed below.
 
 ## 1. Hotfix Lane
 **Scenario**: Critical production bug requiring immediate resolution.

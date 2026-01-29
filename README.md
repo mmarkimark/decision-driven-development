@@ -8,10 +8,11 @@ The goal of this project is to fully document and formalize a complete developme
 
 ### Core Governance
 *   [Agents & Roles](AGENTS.md): Responsibilities for Humans and AI.
-*   [Git & Workflow Governance](GIT/GOVERNANCE.md): Git flow, Pull Request validation, and Fast Lanes.
+*   [Git & Workflow Governance](GIT/GOVERNANCE.md): Git flow, Pull Request validation, and Fast-Lanes.
 *   [UI/UX Governance](UI_UX/GOVERNANCE.md): Design-to-Spec workflow.
 *   [Roadmap](ROADMAP.md): Strategic direction.
 *   [Documentation Synchronization Rule](docs/domain/documentation_synchronization.md)
+*   File naming convention (see DECISION-003): Uppercase = governing artifacts, lowercase = explanatory documentation.
 
 ### The Methodology (Derivation Chain)
 The development flow moves strictly from top to bottom:

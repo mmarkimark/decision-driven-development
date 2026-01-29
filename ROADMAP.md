@@ -6,7 +6,7 @@ This document outlines the strategic direction and upcoming milestones for the D
 *   [x] Establish Core Governance (`GOVERNANCE.md`).
 *   [x] Define Decision Record process (`DECISIONS/`).
 *   [x] Define Use Case process (`USE_CASES/`).
-*   [x] Establish Git Workflow and Fast Lanes (`GIT/GOVERNANCE.md`).
+*   [x] Establish Git Workflow and Fast-Lanes (`GIT/GOVERNANCE.md`).
 *   [x] Define Agent Roles (`AGENTS.md`).
 
 ## Phase 2: Tooling & Automation
