@@ -10,3 +10,4 @@
 | Application | Execution/orchestration layer |
 | Infrastructure | Tooling and automation layer |
 | Traceability | Ability to link changes to governing artifacts |
+| Documentation Synchronization Rule | A governance rule requiring documentation artifacts (README, CHANGELOG, GLOSSARY) to be updated whenever structural or governance changes are introduced. |
