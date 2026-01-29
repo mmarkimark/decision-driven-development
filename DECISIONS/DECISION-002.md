@@ -1,9 +1,15 @@
 # DECISION-002 — Monthly Contribution Algorithm
 
-Defines the deterministic contribution logic.
+## Status
+<!-- ACTION: to be defined by human decision owner -->
 
-## Rules
+## Date
+<!-- ACTION: to be defined by human decision owner -->
 
+## Context
+<!-- ACTION: to be defined by human decision owner -->
+
+## Decision
 - Base contribution P is always executed.
 - Reinforcement applies only when:
   - price < SMA200
@@ -15,3 +21,12 @@ Defines the deterministic contribution logic.
 - Reinforcement is part of the same contribution.
 - Missing market data disables reinforcement.
 - No market prediction or timing.
+
+## Rationale
+<!-- ACTION: to be defined by human decision owner -->
+
+## Impact
+<!-- ACTION: to be defined by human decision owner -->
+
+## References
+<!-- ACTION: to be defined by human decision owner -->

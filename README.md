@@ -6,6 +6,11 @@ The goal of this project is to fully document and formalize a complete developme
 
 This project defines Decision-Driven Development (DDD) v2.0 — a governance-first framework where Decisions, structure, and naming conventions form a binding architectural contract.
 
+## Governance
+*   [Decisions](DECISIONS/)
+*   [Changelog](CHANGELOG.md)
+*   [Glossary](GLOSSARY.md)
+
 ## Documentation Map
 
 ### Core Governance

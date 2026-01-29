@@ -1,10 +1,10 @@
-# [DR-001] Adopt Decision-Driven Development
+# DECISION-001 — Adopt Decision-Driven Development
 
-*   **Status**: Accepted
-*   **Date**: 2023-10-27
-*   **Author(s)**: Jules (AI Architect)
-*   **Supersedes**: N/A
-*   **Superseded By**: N/A
+## Status
+Accepted
+
+## Date
+2023-10-27
 
 ## Context
 Software development often suffers from "drift," where code diverges from intent, and "amnesia," where the reasons for past choices are lost. We need a rigorous framework to ensure that every line of code is traceable to a specific requirement and intent, especially in an AI-assisted environment where code generation speed can outpace human understanding.
@@ -16,8 +16,10 @@ We will adopt the **Decision-Driven Development** framework.
 3.  **Spec-Driven**: No code without a Specification (`UC`) derived from a Decision.
 4.  **Immutable History**: Decisions are never deleted or rewritten, only superseded.
 
-## Consequences
+## Rationale
+<!-- ACTION: to be defined by human decision owner -->
 
+## Impact
 ### Positive
 *   **Traceability**: Complete lineage from Code -> Spec -> Decision.
 *   **Clarity**: "Why" is always answered before "How".
@@ -27,9 +29,5 @@ We will adopt the **Decision-Driven Development** framework.
 *   **Overhead**: Requires more upfront writing and review.
 *   **Friction**: Slows down "quick hacks" or "cowboy coding" (intentionally).
 
-## Compliance
-*   PR validation will reject any code change not linked to a Spec.
-*   PR validation will reject any Spec not linked to a Decision.
-
-## Derived Use Cases / Specs
+## References
 *   [UC-001] Create a Decision Record

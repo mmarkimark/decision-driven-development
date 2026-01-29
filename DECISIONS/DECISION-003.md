@@ -1,13 +1,12 @@
-# DECISION — File Naming Convention for Governance vs Documentation
+# DECISION-003 — File Naming Convention for Governance vs Documentation
 
-Status: Accepted
-Scope: Entire Decision-Driven Development repository
-Date: 2026-01-29
+## Status
+Accepted
 
----
+## Date
+2026-01-29
 
-## 1. Context
-
+## Context
 The Decision-Driven Development (DDD) framework is a governance system, not just documentation.
 
 Over time, file naming drift (mixed casing, inconsistent styles) creates:
@@ -24,8 +23,7 @@ The system requires a visual and structural distinction between:
 
 ---
 
-## 2. Decision
-
+## Decision
 The repository adopts a semantic naming convention based on authority level.
 
 ### UPPERCASE = Governing Artifacts (System Authority)
@@ -69,8 +67,15 @@ This artifact explains the system but does not command it.
 
 ---
 
-## 3. Rationale
+### Rules
+1. All governing artifacts MUST use uppercase names.
+2. All explanatory documentation MUST use lowercase names.
+3. Mixed-case filenames are prohibited.
+4. AI agents must follow this convention when generating files.
 
+---
+
+## Rationale
 This rule provides:
 
 ### 3.1 Visual Hierarchy
@@ -94,17 +99,7 @@ Ubiquitous Language → GLOSSARY.md
 
 ---
 
-## 4. Rules
-
-1. All governing artifacts MUST use uppercase names.
-2. All explanatory documentation MUST use lowercase names.
-3. Mixed-case filenames are prohibited.
-4. AI agents must follow this convention when generating files.
-
----
-
-## 5. Impact
-
+## Impact
 Positive:
 - Stronger governance clarity
 - Reduced AI drift
@@ -117,23 +112,5 @@ Negative:
 
 ---
 
-## 6. Enforcement
-
-This rule applies to:
-
-- New files
-- Refactors
-- AI-generated artifacts
-
-Pull Requests that violate the naming convention must be rejected.
-
----
-
-## 7. Conclusion
-
-Naming is part of architecture.
-This convention formalizes the distinction between:
-
-Rules that govern vs documents that describe.
-
-It reinforces the Decision-Driven nature of the framework.
+## References
+<!-- ACTION: to be defined by human decision owner -->

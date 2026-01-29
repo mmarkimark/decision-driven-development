@@ -1,26 +1,4 @@
-# Changelog
-
-All notable changes to this methodology will be documented here.
-
-## [2.0.0] — 2026-01-29
-
-### Changed
-- DDD is now defined as a binding architectural contract
-- File naming encodes authority (UPPERCASE vs lowercase)
-- Governance synchronization rules introduced (Decisions ↔ README ↔ CHANGELOG ↔ Glossary)
-- Fast-Lane terminology canonicalized
-- Non-governance artifacts explicitly forbidden
-
-## [Unreleased]
-
-### Added
-- Governance: Adopted file naming convention distinguishing governing artifacts (UPPERCASE) from explanatory documentation (lowercase). See DECISION-003.
-- Canonical DDD meta-architecture documentation
-- Architecture rules separating Domain / Application / Infrastructure
-- AI Constraints layer
-- Domain governance files
-- Rule hierarchy system
-- Change classification model
-- Decision lifecycle model
-- Conflict resolution mechanism
-- Traceability rule
+# CHANGELOG
+- DECISION-001 — Adopt Decision-Driven Development — status: Accepted — date: 2023-10-27
+- DECISION-002 — Monthly Contribution Algorithm — status: TBD — date: TBD
+- DECISION-003 — File Naming Convention for Governance vs Documentation — status: Accepted — date: 2026-01-29
