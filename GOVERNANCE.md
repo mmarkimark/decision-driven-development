@@ -19,7 +19,7 @@ Operational or functional derivations of Decisions. Use Cases describe the
 expected system behavior in concrete scenarios and are the input for
 implementation tasks and tests.
 
-### FAST-LANES
+### Fast-Lanes
 Used for rapid, bounded execution changes (bug fixes, small improvements).
 Fast-Lanes allow the team to act quickly while protecting the Decision model
 from ad-hoc changes.
