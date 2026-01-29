@@ -11,6 +11,7 @@ The goal of this project is to fully document and formalize a complete developme
 *   [Git & Workflow Governance](GIT/GOVERNANCE.md): Git flow, Pull Request validation, and Fast Lanes.
 *   [UI/UX Governance](UI_UX/GOVERNANCE.md): Design-to-Spec workflow.
 *   [Roadmap](ROADMAP.md): Strategic direction.
+*   Documentation Synchronization Rule (docs/domain/documentation_synchronization.md)
 
 ### The Methodology (Derivation Chain)
 The development flow moves strictly from top to bottom:
