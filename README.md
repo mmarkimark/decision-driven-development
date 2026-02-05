@@ -37,5 +37,14 @@ The development flow moves strictly from top to bottom:
 2.  Review `DECISIONS/` to see active constraints.
 3.  To propose a change, copy `DECISIONS/TEMPLATE.md` to a new Decision Record.
 
+## External Documentation
+
+A navigable, auto-generated documentation view of this repository is available at:
+
+https://deepwiki.com/mmarkimark/decision-driven-development
+
+This external documentation is provided for exploration and readability only.
+All governance rules, Decisions, and authoritative content live exclusively in this GitHub repository.
+
 ## License
 See [LICENSE](LICENSE)
